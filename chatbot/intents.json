@@ -1,0 +1,126 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you ", "Hi there, how can I help?"],
+         "context": [""]
+         },
+
+         {"tag": "how",
+         "patterns": ["Hi How are you?", "How r u?", "how r you?", "how are u?", "are you ok?", "r u fine?", "r you fine?", "are u fine?", "r u ok?"],
+         "responses": ["hello i am fine , thanks for asking, how can I help you.?"],
+         "context": [""]
+         },
+
+         {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+         },
+         {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+         },
+         {"tag": "bot",
+         "patterns": ["who?", "who are you?", "who r u?", "you?", "u?"],
+         "responses": ["hello i m chat bot."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "ok",
+         "patterns": ["ok", "ok bye", "ok bye see you","ok bye tc", "ok ye take care", "k bye", "k"],
+         "responses": ["ok bye see you again"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through IT services list, Web design & Development, App Development,Game Design & Development", "Offering support in IT field,sells and marketing "],
+         "context": [""]
+        },
+        {"tag": "IT_Service",
+         "patterns": ["what kind of IT Service you are providing?", "service", "which type of software you provide?", "Tell me about your IT sevices?"],
+         "responses": ["we are providing sevice based on sells,markering and development"],
+         "context": [""]
+        },
+        {"tag": "marketing",
+         "patterns": ["marketing","can you provide digital marketing?", "can you provide SEO sevice?", "which type of digital service you provide?", "which kind of marketing of you have provide?", "which kind of digital service you provide?" ],
+         "responses": ["we are providing digital marketing (SEO).type of SEO are black SEO,white SEO"],
+         "context": [""]
+        },
+        {"tag": "App",
+         "patterns": ["What are the different types of app?","app?","What are the type of mobile apps?","What is called App?","what is app?","what is an app?", "How many apps are there?","app?", "Three Types of Apps?", "mobile app?", "what is mobile app?" ],
+         "responses": ["A mobile application, also referred to as a mobile app or simply an app, is a computer program or software application designed to run on a mobile device ,Three Types of Apps: Native, Hybrid, and Web."],
+         "context": [""]
+        },
+        {"tag": "Native",
+         "patterns": ["Native mobile apps?","What are native apps?","what is native?", "native mobile application?", "native?", "what is native appliction?","native moile app?" ],
+         "responses": ["Native mobile apps are designed to be NATIVE to one platform,whether its Apple iOS, Google’s Android, or Windows Phone.The native platform can be advantageous because it tends to optimize the user experience."],
+         "context": [""]
+        
+        },
+        {"tag": "Hybrid",
+         "patterns": ["Hybrid mobile apps?", "what is Hybrid?", "Hybrid mobile application?", "Hybrid?", "what is Hybrid appliction?","Hybrid moile app?"  ],
+         "responses": ["These apps can be installed on devices just like native apps, but they run through web browsers.All hybrid apps are developed through the HTML5 programming language."],
+         "context": [""]
+        },
+
+        {"tag": "Web",
+         "patterns": ["web mobile apps?", "web", "mobile web application?", "Web app?", "web development mean?", "what is the meaning of web development?", "web development","web application?", "mobile app?", "what is web?", "web mobile application?", "web?", "what is mobile web application?", "what is web appliction?", "web moile app?", "what is web development?", "web application?"],
+         "responses": ["Responsive websites switch to a different design when they are accessed from a mobile device.Adaptive web applications, on the other hand, scale to fit the different screen sizes of mobile devices."],
+         "context": [""]
+        },
+        {"tag": "App_development",
+         "patterns": ["App Development?", "what is app development?", "what is application development?", "application development?", "mobile app development?" ],
+         "responses": ["Application development is the process of creating a computer program or a set of programs to perform the different tasks that a business requires."],
+         "context": [""]
+        },
+        {"tag": "Development",
+         "patterns": ["Development?", "what is development?", "type of development?", "what is the type of development?", "appliction", "mobile application", "development?"],
+         "responses": ["in which we have develope appliction.two type of application which is App development,Web development"],
+         "context": [""]
+        },
+        {"tag": "Adv_of_App_dev ",
+         "patterns": ["Benefits Of Mobile App Development To Businesses?", "Benefits Of Mobile App Development?", "Benefits Of Mobile App?", "Benefits of App Development?", "Benefits Of  App ?","Advantages Of Mobile App Development To Businesses?", "Advantages Of Mobile App Development?", "Advantages Of Mobile App?", "Advantages of App Development?", "Advantages Of  App ?" ,"merits Of Mobile App Development To Businesses?", "merits Of Mobile App Development?", "merits Of Mobile App?", "merits of App Development?", "merits Of  App ?"],
+         "responses": ["Strengthen customer engagement,Increase accessibility,Provide value for customers,Transforming the retail experience,Build brand awareness and recognition"],
+         "context": [""]
+        },
+        {"tag": "Adv_of_web_dev",
+         "patterns": ["Benefits Of Mobile web Development To Businesses?","What are the benefits of web application?", "Benefits Of Mobile web Development?", "Benefits Of Mobile web ?", "Benefits of web Development?", "Benefits Of  web ?", "Advantages Of Mobile web Development To Businesses?", "What are the advantages of web application?", "Advantages Of Mobile web Development?", "Advantages Of Mobile web ?", "Advantages of web Development?", "Advantages Of  web ?" ,"merits Of Mobile web Development To Businesses?", "What are the merits of web application?", "merits Of Mobile web Development?", "merits Of Mobile web ?", "merits of web Development?", "merits Of  web ?"],
+         "responses": ["Easy Maintenance By having software applications web-based, you eliminate the need to perform updates on each users desktop, Cross-Platform Capabilities, More manageable, Reduced costs."],
+         "context": [""]
+        },
+        {"tag": "Dis_adv_of_web_app_dev",
+         "patterns": ["Disadvantages of creating a web app", "Disadvantages Of Mobile web app To Businesses?", "What are the Disadvantages of web app?", "Disadvantages Of Mobile web app?", "Disadvantages Of Mobile web app ?", "Disadvantages of web app?", "Disadvantages Of  web ?", "Disadvantages Of Mobile web Development To Businesses?", "Disadvanges of app?", "demerits of app?", "Disadvanges of app Development?", "demerits of app Development?", "demerits Of Mobile web app To Businesses?", "What are the demerits of web app?", "demerits  Of Mobile web app?", "demerits  Of Mobile web ?", "demerits of web app?","Disadvantes Of  web Development", "demerits Of  web?", "demerits Of  web Development ?"],
+         "responses": ["A single web app is able to reach out to all devices. You will have to spend the money you intended to save developing the application in improving your website. If your website undergoes any kind of issue, your application will be in trouble too."],
+         "context": [""]
+        },
+        {"tag": "Sells",
+         "patterns": ["what kind of sells service you are providing?", "which type of sells service you are providing?", "what type of sells sevice you are providing?", "what are you selling?", "which kind of product you sell?","what kind of product you are selling","what type of product you are selling" ],
+         "responses": ["we are selling Software of web developement,App developement and so many"],
+         "context": [""]
+        
+        },
+        {"tag": "App_design",
+         "patterns": ["What is Mobile App designing??", "App design?", "design?", "design?", "What is mobile interface??","mobile app design?" ,"What is mean by app design?" ],
+         "responses": ["Mobile app design encompasses both the user interface (UI) and user experience (UX). Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use."],
+         "context": [""]
+        
+        },
+        {"tag": "web_design",
+         "patterns": ["What is web designing??", "web design?", "design?", "design?", "What is web interface??", "web design?", "What is mean by Web design?" ],
+         "responses": ["Web design encompasses many different skills and disciplines in the production and maintenance of websites. "],
+         "context": [""]
+        
+        }
+        
+        
+        
+        
+
+       
+   ]
+}
